@@ -1,0 +1,1530 @@
+Package: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2483
+Depends: libavcodec59 (>= 7:5.0), libavdevice59 (>= 7:5.0), libavfilter8 (>= 7:5.1), libavformat59 (>= 7:5.1), libavutil57 (>= 7:5.1), libc6 (>= 2.35), libpostproc56 (>= 7:5.0), libsdl2-2.0-0 (>= 2.0.12), libswresample4 (>= 7:5.1), libswscale6 (>= 7:5.0)
+Suggests: ffmpeg-doc
+Filename: pool/f/ffmpeg/ffmpeg_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 1774828
+MD5sum: f23618c63f6249d2440c226f256bd378
+SHA1: 12c95bdf600e0320ad0562434d9b21e3999e9ce2
+SHA256: f09e3da59eda5d5bc2bd0ee904443fd1e83e7e02fbff25bb902f95f6856ed68d
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Description: Tools for transcoding, streaming and playing of multimedia files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains:
+  * ffmpeg: a command line tool to convert multimedia files between formats
+  * ffplay: a simple media player based on SDL and the FFmpeg libraries
+  * ffprobe: a simple multimedia stream analyzer
+  * qt-faststart: a utility to rearrange Quicktime files
+
+Package: ffmpeg-doc
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 34974
+Depends: libjs-jquery, libjs-bootstrap
+Filename: pool/f/ffmpeg/ffmpeg-doc_5.1.5-0rpt1ubuntu1_all.deb
+Size: 2010214
+MD5sum: aafe75713a174fca56d1c387bd536a87
+SHA1: c76163dd6deb1fd76f67298af63d669b5e4007c8
+SHA256: 67baf5ef3f3c370edc013166c5196890ba87a7be39fe7a783006abf0b183256c
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Description: Documentation of the FFmpeg multimedia framework
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains the HTML documentation for the FFmpeg multimedia
+ framework including the API documentation created by doxygen and the manpages
+ for the libraries.
+
+Package: libavcodec-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 18919
+Depends: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavcodec-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 6279338
+MD5sum: 5a8f88c3f54ba80672ba4a34b62ddcfe
+SHA1: a0d40dc09dc4458071e2aa760207cc3c7d8164ad
+SHA256: fe3678ba3409e773126ed196c712476ad38407b1578f9d8580659607e63d5754
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with de/encoders for audio/video codecs - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package contains the development files.
+
+Package: libavcodec-extra
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 56
+Depends: libavcodec-extra59 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavcodec-extra_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 21540
+MD5sum: b7a5912c91a087825d160a720726fcd5
+SHA1: 7bb2fffe63729b13efa318039c703c83d594a6f1
+SHA256: 2f2a2a10d4de90a83343fe5389674fcf6b3b33512a60b6711f1881a56eeadca7
+Section: metapackages
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with extra codecs (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavcodec variant
+ that offers additional codec support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavcodec-extra59
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 12689
+Depends: libaom3 (>= 3.2.0), libaribb24-0t64 (>= 1.0.3), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 0.9.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1d1 (>= 1.7.0+dfsg), libswresample4 (>= 7:5.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libudev1 (>= 183), libva2 (>= 2.9.0), libvo-amrwbenc0 (>= 0.1.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
+Conflicts: libavcodec59
+Provides: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavcodec-extra59_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 5614352
+MD5sum: ec34c9b805349fffa1fa35008208b401
+SHA1: fc48ae3ff9614d8b738eecd85fb516d1880e0312
+SHA256: 92e475f7fb44542dc69686395c10de3b9b8fed713fba55019dab1473bf79f976
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with additional de/encoders for audio/video codecs
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package replaces the libavcodec58 package and contains the
+ following additional codecs:
+ .
+  * ARIB STD-B24 Captions (Subtitle Decoder)
+  * OpenCORE Adaptive Multi-Rate (AMR) Narrow-Band (Encoder/Decoder)
+  * OpenCORE Adaptive Multi-Rate (AMR) Wide-Band (Decoder)
+  * Android VisualOn Adaptive Multi-Rate (AMR) Wide-Band (Encoder)
+ .
+ Because this package links against libraries that are licensed under
+ Apache License 2.0, the resulting binaries are distributed under the
+ GPL version 3 or later.
+
+Package: libavcodec59
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 12689
+Depends: libaom3 (>= 3.2.0), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 0.9.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1d1 (>= 1.7.0+dfsg), libswresample4 (>= 7:5.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libudev1 (>= 183), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
+Filename: pool/f/ffmpeg/libavcodec59_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 5609744
+MD5sum: ddac9a2b9508995232a9448cc8c70f46
+SHA1: 311f5c6366539ab599457632f5ba48a96448f072
+SHA256: 18b78c62a3c1bd6741c3e04665d5144c5971ad2754768f2849f079a92d838382
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package contains the runtime files.
+
+Package: libavdevice-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 472
+Depends: libavcodec-dev (= 9:5.1.5-0rpt1ubuntu1), libavdevice59 (= 9:5.1.5-0rpt1ubuntu1), libavfilter-dev (= 9:5.1.5-0rpt1ubuntu1), libavformat-dev (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libpostproc-dev (= 9:5.1.5-0rpt1ubuntu1), libswscale-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavdevice-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 114068
+MD5sum: 8a9dcbb31d1f7b32b391fef73b6b367e
+SHA1: dfedf9cfe8a47471fdceb2067a57359642677673
+SHA256: 88b91975a44d2702e4292d2739346d1a0b48285aaa685834e4a039d51459a101
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for handling input and output devices - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for grabbing from and rendering to
+ many common multimedia input/output devices, and supports several input and
+ output devices, including Video4Linux2, VfW, DShow, and ALSA.
+ .
+ This package contains the development files.
+
+Package: libavdevice59
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 321
+Depends: libasound2t64 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec59 (>= 7:5.0), libavfilter8 (>= 7:5.1), libavformat59 (= 9:5.1.5-0rpt1ubuntu1), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libdc1394-25 (>= 2.2.6), libdrm2 (>= 2.4.101), libepoxy0 (>= 1.0), libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libsdl2-2.0-0 (>= 2.0.12), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
+Filename: pool/f/ffmpeg/libavdevice59_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 94888
+MD5sum: 838b2d8d34bb37bf3cb919504a1a2132
+SHA1: 476d2e86a7003abf8176a336a573bd48d5bd947f
+SHA256: 9b9523ea60bf4f50938711c70562b1bd6e376508016310592e626490a04a37a4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for handling input and output devices - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for grabbing from and rendering to
+ many common multimedia input/output devices, and supports several input and
+ output devices, including Video4Linux2, VfW, DShow, and ALSA.
+ .
+ This package contains the runtime files.
+
+Package: libavfilter-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 8160
+Depends: libavcodec-dev (= 9:5.1.5-0rpt1ubuntu1), libavfilter8 (= 9:5.1.5-0rpt1ubuntu1), libavformat-dev (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libpostproc-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1), libswscale-dev (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavfilter-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 2091116
+MD5sum: 87d99bb34b1a6822fec6ad28b16e8e96
+SHA1: c57c89091634d8b2c72a7ae5cf2d066de514579a
+SHA256: dd64ef3e3dc1df912bf2c88e05b42790c0a13bac80f5a32cfe0a4fc4d5be39e8
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library containing media filters - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package contains the development files.
+
+Package: libavfilter-extra
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 56
+Depends: libavfilter-extra8 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavfilter-extra_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 21538
+MD5sum: db7ad3073ea84e5a96667bd5e0e99bb7
+SHA1: cbb01f391e37db6d114f4881e53fe4655ae00bfb
+SHA256: aab5f20647f2b6073fc13ee7466739ec0d34c797c0cdfe7da23dc18a15ffb723
+Section: metapackages
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with extra filters (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavfilter variant
+ that offers additional filter support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavfilter-extra8
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 12172
+Depends: libass9 (>= 1:0.13.6), libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavformat59 (>= 7:5.0), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo264 (>= 5.264.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc56 (>= 7:5.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:5.1), libswscale6 (>= 7:5.0), libtesseract5 (>= 5.3.4), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Conflicts: libavfilter8
+Provides: libavfilter8 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavfilter-extra8_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 4022670
+MD5sum: 086757e20766d854b74ae455ec8b2173
+SHA1: b2b8c6231b5856ffc6ea346ad5710a407e2576e0
+SHA256: 7deb6317dc2a230b8be3e10341bc4de395c76b54880ddb1bbf725437a8ecf0ad
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with extra media filters - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package replaces the libavfilter6 package and contains the
+ following additional filters:
+ .
+  * Optical Character Recognition (uses Tesseract)
+ .
+ Because this package links against libraries that are licensed under
+ Apache License 2.0, the resulting binaries are distributed under the
+ GPL version 3 or later.
+
+Package: libavfilter8
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 12108
+Depends: libass9 (>= 1:0.13.6), libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavformat59 (>= 7:5.0), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo264 (>= 5.264.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc56 (>= 7:5.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:5.1), libswscale6 (>= 7:5.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Filename: pool/f/ffmpeg/libavfilter8_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 4022594
+MD5sum: eabf482092edd5f5924229cd83f78660
+SHA1: 3e16a7d1f464953bb8e58953eba9fc9a09a0a2fc
+SHA256: 8849d2653d597e131e0bd3de9e2e93de16598723d28abf9a526ae80a67f026f5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library containing media filters - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package contains the runtime files.
+
+Package: libavformat-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 5888
+Depends: libavcodec-dev (= 9:5.1.5-0rpt1ubuntu1), libavformat59 (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavformat-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 1461564
+MD5sum: 6bf87cacadf2079cb847c6313b7f3951
+SHA1: 2162c41b13aed5c81430f4f361b13da687cf322e
+SHA256: ce365badb413df10e7f245aa358046e42affe21338fafa751c86c59a24c976e9
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with (de)muxers for multimedia containers - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for multiplexing and demultiplexing
+ (muxing and demuxing) audio, video and subtitle streams. It encompasses
+ multiple muxers and demuxers for multimedia container formats. It also
+ supports several input and output protocols to access a media resource.
+ .
+ This package contains the development files.
+
+Package: libavformat-extra
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 56
+Depends: libavformat-extra59 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavformat-extra_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 21546
+MD5sum: d3b7adcde4188f137930fbc849328270
+SHA1: df786e5e6df4ed06ae2515c71b4f471f8e48187f
+SHA256: 1b17823db862d29fe8551a2795a360bc1b4626c3a0f6efb8d9feef026c0e06b3
+Section: metapackages
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with extra (de)muxers (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavformat variant
+ that offers additional (de)muxers support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavformat-extra59
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2890
+Depends: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsmbclient0 (>= 2:4.0.3+dfsg1), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Conflicts: libavformat59
+Provides: libavformat59 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavformat-extra59_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 1173440
+MD5sum: 7c35ab798306484e8463b9938814862c
+SHA1: 3bf01fddcc28ad0065842ab46a8843c8eb6464e4
+SHA256: 9cda359cc68e9ca9288d22c3172541d2cf1a03787e579358638a791182dfa1b7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with additional (de)muxers for multimedia containers
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for multiplexing and demultiplexing
+ (muxing and demuxing) audio, video and subtitle streams. It encompasses
+ multiple muxers and demuxers for multimedia container formats. It also
+ supports several input and output protocols to access a media resource.
+ .
+ This package replaces the libavformat58 package and contains the
+ following additional (de)muxers:
+ .
+  * SMB protocol (using libsmbclient)
+ .
+ Because this package links against libraries that are licensed under
+ Apache License 2.0 or GPL version 3, the resulting binaries are distributed
+ under the GPL version 3 or later.
+
+Package: libavformat59
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2887
+Depends: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Filename: pool/f/ffmpeg/libavformat59_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 1171770
+MD5sum: 933b64e6467e0a5fd9f8ef2aa1f09b1c
+SHA1: 1e2a37043e25aa2a42152d80ba988841cffb8767
+SHA256: f8662880528dba3c2bf48504af2f6df030079c9cc085a7ca90784052bac45fa5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for multiplexing and demultiplexing
+ (muxing and demuxing) audio, video and subtitle streams. It encompasses
+ multiple muxers and demuxers for multimedia container formats. It also
+ supports several input and output protocols to access a media resource.
+ .
+ This package contains the runtime files.
+
+Package: libavutil-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2076
+Depends: libavutil57 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libavutil-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 517136
+MD5sum: 9f2c76185308d3ee3d3b508192562ca8
+SHA1: 8e7ae74c2a704c111f400e822716d6a96c8b8697
+SHA256: 3362c1e61501f2221b04f02419a5da3f58355737137690d67c26332cec09aae9
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with functions for simplifying programming - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is a utility library to aid portable multimedia programming.
+ It contains safe portable string functions, random number generators, data
+ structures, additional mathematics functions, cryptography and multimedia
+ related functionality (like enumerations for pixel and sample formats).
+ It is not a library for code needed by both libavcodec and libavformat.
+ The goal for this library is to be modular, small, efficient and useful.
+ .
+ This package contains the development files.
+
+Package: libavutil57
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 924
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.1.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
+Filename: pool/f/ffmpeg/libavutil57_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 355036
+MD5sum: c5aee625a459807dc3ffc8158bff9369
+SHA1: 0101a79b979a4b67fca6c98ea610163e158caa00
+SHA256: 6e1fa3dc28e68fb97c5bfda90b54f500b879d159b7b20302a21c809a1a82f3db
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library with functions for simplifying programming - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is a utility library to aid portable multimedia programming.
+ It contains safe portable string functions, random number generators, data
+ structures, additional mathematics functions, cryptography and multimedia
+ related functionality (like enumerations for pixel and sample formats).
+ It is not a library for code needed by both libavcodec and libavformat.
+ The goal for this library is to be modular, small, efficient and useful.
+ .
+ This package contains the runtime files.
+
+Package: libbasicusageenvironment2
+Source: liblivemedia
+Version: 1:2024.06.26-1ubuntu1
+Architecture: arm64
+Maintainer: Yufei Miao <m.yufei@wustl.edu>
+Installed-Size: 82
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
+Filename: pool/libl/liblivemedia/libbasicusageenvironment2_2024.06.26-1ubuntu1_arm64.deb
+Size: 17238
+MD5sum: 967644661c0c4098381ebcf4941a56be
+SHA1: 361972f2135f597fea7640de43534366ccb27e4b
+SHA256: be809548bbf6cf5c2a3f2553a0dd3818fbfa595e65ddbb72fab6a57a04457186
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.live555.com/liveMedia/
+Description: multimedia RTSP streaming library (BasicUsageEnvironment class)
+ The live555.com streaming media code is a set of C++ libraries for multimedia
+ streaming, using open standard protocols (RTP/RTCP, RTSP, SIP). These
+ libraries can be used to build applications to stream, receive and process
+ MPEG, H.263+ or JPEG video, several audio codecs, and can easily be extended
+ to support additional codecs. They can also be used to build basic RTSP (Real
+ Time Streaming Protocol) or SIP (Session Initiation Protocol) clients and
+ servers.
+ .
+ This package contains the BasicUsageEnvironment library which defines one
+ concrete implementation (i.e., subclasses) of the "UsageEnvironment" classes,
+ for use in simple, console applications. Read events and delayed operations are
+ handled using a select() loop.
+
+Package: libgroupsock30
+Source: liblivemedia
+Version: 1:2024.06.26-1ubuntu1
+Architecture: arm64
+Maintainer: Yufei Miao <m.yufei@wustl.edu>
+Installed-Size: 82
+Depends: libbasicusageenvironment2 (>= 1:2024.06.26), libc6 (>= 2.28), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
+Filename: pool/libl/liblivemedia/libgroupsock30_2024.06.26-1ubuntu1_arm64.deb
+Size: 24518
+MD5sum: 67d2ac4b8991c36cc72ec1533e8f9196
+SHA1: 5af894cd7f9ea89002b0aec570209e8301edacd1
+SHA256: 91a673dc83ac1691c7a0249b637ba6e4cbf07f12c6a792ea5ccb9e9c5635c987
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.live555.com/liveMedia/
+Description: multimedia RTSP streaming library (network interfaces and sockets)
+ The live555.com streaming media code is a set of C++ libraries for multimedia
+ streaming, using open standard protocols (RTP/RTCP, RTSP, SIP). These
+ libraries can be used to build applications to stream, receive and process
+ MPEG, H.263+ or JPEG video, several audio codecs, and can easily be extended
+ to support additional codecs. They can also be used to build basic RTSP (Real
+ Time Streaming Protocol) or SIP (Session Initiation Protocol) clients and
+ servers.
+ .
+ This package contains the groupsock library. The classes in this library
+ encapsulate network interfaces and sockets. In particular, the "Groupsock"
+ class encapsulates a socket for sending (and/or receiving) multicast datagrams.
+
+Package: liblivemedia-dev
+Source: liblivemedia
+Version: 1:2024.06.26-1ubuntu1
+Architecture: arm64
+Maintainer: Yufei Miao <m.yufei@wustl.edu>
+Installed-Size: 988
+Depends: libbasicusageenvironment2 (= 1:2024.06.26-1ubuntu1), libgroupsock30 (= 1:2024.06.26-1ubuntu1), liblivemedia112 (= 1:2024.06.26-1ubuntu1), libusageenvironment3 (= 1:2024.06.26-1ubuntu1)
+Filename: pool/libl/liblivemedia/liblivemedia-dev_2024.06.26-1ubuntu1_arm64.deb
+Size: 122522
+MD5sum: 342148496adbdad4f4dc509a93502966
+SHA1: bde1c26288711754ec29ae099c24dedc7ad1f421
+SHA256: 6fc05f1461180f88664d2c3cefaca90da5ad62ad935a78f455e1defe2e3425aa
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.live555.com/liveMedia/
+Description: multimedia RTSP streaming library (development files)
+ The live555.com streaming media code is a set of C++ libraries for multimedia
+ streaming, using open standard protocols (RTP/RTCP, RTSP, SIP). These
+ libraries can be used to build applications to stream, receive and process
+ MPEG, H.263+ or JPEG video, several audio codecs, and can easily be extended
+ to support additional codecs. They can also be used to build basic RTSP (Real
+ Time Streaming Protocol) or SIP (Session Initiation Protocol) clients and
+ servers.
+ .
+ This package contains the headers and static libraries required to build
+ applications that use live555.com.
+
+Package: liblivemedia112
+Source: liblivemedia
+Version: 1:2024.06.26-1ubuntu1
+Architecture: arm64
+Maintainer: Yufei Miao <m.yufei@wustl.edu>
+Installed-Size: 1252
+Depends: libbasicusageenvironment2 (>= 1:2024.06.26), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgroupsock30 (>= 1:2024.06.26), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
+Filename: pool/libl/liblivemedia/liblivemedia112_2024.06.26-1ubuntu1_arm64.deb
+Size: 355218
+MD5sum: 14d3d788438e2d8ef38a587f329e99a4
+SHA1: e8288308e69172a5d70080c2c0031a5197d8adef
+SHA256: 3ae664a25ad965aa2b55abba036160680d85eeecb72ebbe88eac7a58e0d726ad
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.live555.com/liveMedia/
+Description: multimedia RTSP streaming library
+ The live555.com streaming media code is a set of C++ libraries for multimedia
+ streaming, using open standard protocols (RTP/RTCP, RTSP, SIP). These
+ libraries can be used to build applications to stream, receive and process
+ MPEG, H.263+ or JPEG video, several audio codecs, and can easily be extended
+ to support additional codecs. They can also be used to build basic RTSP (Real
+ Time Streaming Protocol) or SIP (Session Initiation Protocol) clients and
+ servers.
+ .
+ This package contains the liveMedia library which defines a class hierarchy -
+ rooted in the "Medium" class - for a variety of streaming media types and
+ codecs.
+
+Package: libplacebo-dev
+Source: libplacebo
+Version: 1:5.264.1-1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 477
+Depends: libplacebo264 (= 1:5.264.1-1ubuntu1), liblcms2-dev, libvulkan-dev
+Filename: pool/libp/libplacebo/libplacebo-dev_5.264.1-1ubuntu1_arm64.deb
+Size: 107208
+MD5sum: 5727eb2911863100cb1d5a3764866560
+SHA1: 0a66d4a01123a05adc6b0293bbb3be5fef9b5275
+SHA256: 413b0b71a4931a577dc41b585b35308bc4244dda397d077dfd7f8eea5f859851
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://code.videolan.org/videolan/libplacebo
+Description: GPU-accelerated video/image rendering primitives (development files)
+ The library provides useful GPU-accelerated image processing primitives based
+ on GLSL. It includes shader routines for decoding and transforming colors,
+ tone mapping, dithering, and for various algorithms that sample from images,
+ such as debanding and scaling.
+ .
+ This package contains the development files.
+
+Package: libplacebo264
+Source: libplacebo
+Version: 1:5.264.1-1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 7916
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), liblcms2-2 (>= 2.6), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
+Filename: pool/libp/libplacebo/libplacebo264_5.264.1-1ubuntu1_arm64.deb
+Size: 2487634
+MD5sum: e1a70f26469fa624f37554ff30829187
+SHA1: 052e2f6d36063b1373460d56f131dc8988fe8ae0
+SHA256: e0a439288e15c5dc814886d389594190019f6f2032ed5a0356ab835b18481dc0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://code.videolan.org/videolan/libplacebo
+Description: GPU-accelerated video/image rendering primitives (shared library)
+ The library provides useful GPU-accelerated image processing primitives based
+ on GLSL. It includes shader routines for decoding and transforming colors,
+ tone mapping, dithering, and for various algorithms that sample from images,
+ such as debanding and scaling.
+ .
+ This package contains the shared library.
+
+Package: libpostproc-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 124
+Depends: libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libpostproc56 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libpostproc-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 47444
+MD5sum: 998f6f8e7e055fcc06eccab6bc9c1b3e
+SHA1: eb64653b245a5ddc6dbf8dd9f4f0f0399f1e7999
+SHA256: 9304593967c72a6493da84086290932464729e0a17e4d028e173be82a364b64f
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for post processing - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides video post processing.
+ .
+ This package contains the development files.
+
+Package: libpostproc56
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 131
+Depends: libavutil57 (>= 7:5.0), libc6 (>= 2.17)
+Filename: pool/f/ffmpeg/libpostproc56_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 46702
+MD5sum: 62857c911ca2fe0fa7fb3791acceb056
+SHA1: 29f0add0e396c8b082c0e3793a9a1592dcb1e327
+SHA256: 4e72d9e56db868ab0dc6306db1e02c573843b00f65bba57d3e40d0dc98cf4679
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for post processing - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides video post processing.
+ .
+ This package contains the runtime files.
+
+Package: libswresample-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 265
+Depends: libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample4 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libswresample-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 76634
+MD5sum: 6005021900b1b032502e27bc5f159675
+SHA1: 866d9e8791bb39de54a1da821b0796b86a7d2a1e
+SHA256: 7a59be7b2898e2900c673e45d094fbb424ee0640906ac32c2ee4a1244e12d557
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for audio resampling, rematrixing etc. - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized audio resampling, rematrixing
+ and sample format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Resampling is the process of changing the audio rate, for example from a
+    high sample rate of 44100Hz to 8000Hz. Audio conversion from high to low
+    sample rate is a lossy process. Several resampling options and algorithms
+    are available.
+  * Rematrixing is the process of changing the channel layout, for example from
+    stereo to mono. When the input channels cannot be mapped to the output
+    streams, the process is lossy, since it involves different gain factors
+    and mixing. Various other audio conversions (e.g. stretching and padding)
+    are enabled through dedicated options.
+  * Format conversion is the process of converting the type of samples, for
+    example from 16-bit signed samples to unsigned 8-bit or float samples.
+    It also handles packing conversion, when passing from packed layout (all
+    samples belonging to distinct channels interleaved in the same buffer), to
+    planar layout (all samples belonging to the same channel stored in a
+    dedicated buffer or "plane").
+ .
+ This package contains the development files.
+
+Package: libswresample4
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 196
+Depends: libavutil57 (>= 7:5.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
+Filename: pool/f/ffmpeg/libswresample4_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 64030
+MD5sum: adc07032cb398afa7719130619004f7b
+SHA1: 14dc46e5146bde6354a1397b6fd50f869a5ff09e
+SHA256: f59e1c16e1304551178a97446947b7d518b28b6d12eb36356863b85d8f3e1136
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized audio resampling, rematrixing
+ and sample format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Resampling is the process of changing the audio rate, for example from a
+    high sample rate of 44100Hz to 8000Hz. Audio conversion from high to low
+    sample rate is a lossy process. Several resampling options and algorithms
+    are available.
+  * Rematrixing is the process of changing the channel layout, for example from
+    stereo to mono. When the input channels cannot be mapped to the output
+    streams, the process is lossy, since it involves different gain factors
+    and mixing. Various other audio conversions (e.g. stretching and padding)
+    are enabled through dedicated options.
+  * Format conversion is the process of converting the type of samples, for
+    example from 16-bit signed samples to unsigned 8-bit or float samples.
+    It also handles packing conversion, when passing from packed layout (all
+    samples belonging to distinct channels interleaved in the same buffer), to
+    planar layout (all samples belonging to the same channel stored in a
+    dedicated buffer or "plane").
+ .
+ This package contains the runtime files.
+
+Package: libswscale-dev
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 838
+Depends: libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswscale6 (= 9:5.1.5-0rpt1ubuntu1)
+Filename: pool/f/ffmpeg/libswscale-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 195732
+MD5sum: 02f44bbe97f8f81738846642b586e363
+SHA1: 898b7f49c9a537cface930eec13f520f258b62b7
+SHA256: 01b614f6837f1f6c93e5c49656404e271c9c01df74446323bda0c1c7aa45d23f
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for image scaling and various conversions - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized image scaling and colorspace and pixel
+ format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Rescaling is the process of changing the video size. Several rescaling
+    options and algorithms are available. This is usually a lossy process.
+  * Pixel format conversion is the process of converting the image format and
+    colorspace of the image, for example from planar YUV420P to RGB24 packed.
+    It also handles packing conversion, that is converts from packed layout
+    (all pixels belonging to distinct planes interleaved in the same buffer),
+    to planar layout (all samples belonging to the same plane stored in a
+    dedicated buffer or "plane"). This is usually a lossy process in case the
+    source and destination colorspaces differ.
+ .
+ This package contains the development files.
+
+Package: libswscale6
+Source: ffmpeg
+Version: 9:5.1.5-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 580
+Depends: libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libc6 (>= 2.34)
+Filename: pool/f/ffmpeg/libswscale6_5.1.5-0rpt1ubuntu1_arm64.deb
+Size: 173028
+MD5sum: bf521c787f059f5e43ebbc4e0f379865
+SHA1: 6791d5957ca1aabe3c17b9da4b25716bf986a238
+SHA256: 886122b1efbac3826815e317a1c7c83ac6b2890ab6631619aa288c8b1c5a4a5f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Description: FFmpeg library for image scaling and various conversions - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized image scaling and colorspace and pixel
+ format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Rescaling is the process of changing the video size. Several rescaling
+    options and algorithms are available. This is usually a lossy process.
+  * Pixel format conversion is the process of converting the image format and
+    colorspace of the image, for example from planar YUV420P to RGB24 packed.
+    It also handles packing conversion, that is converts from packed layout
+    (all pixels belonging to distinct planes interleaved in the same buffer),
+    to planar layout (all samples belonging to the same plane stored in a
+    dedicated buffer or "plane"). This is usually a lossy process in case the
+    source and destination colorspaces differ.
+ .
+ This package contains the runtime files.
+
+Package: libusageenvironment3
+Source: liblivemedia
+Version: 1:2024.06.26-1ubuntu1
+Architecture: arm64
+Maintainer: Yufei Miao <m.yufei@wustl.edu>
+Installed-Size: 81
+Depends: libc6 (>= 2.17), libstdc++6 (>= 5)
+Filename: pool/libl/liblivemedia/libusageenvironment3_2024.06.26-1ubuntu1_arm64.deb
+Size: 6866
+MD5sum: 4cdc857ac5449600cbe53e169cf2c23d
+SHA1: e7a6a50e7ae68dca751c041f38b87ae5d63a2e69
+SHA256: 1492bee2a59c2bd307de2a3b8e9f1e02e3f8ebd6fa5422f3d04d9b9a1d85c286
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.live555.com/liveMedia/
+Description: multimedia RTSP streaming library (UsageEnvironment classes)
+ The live555.com streaming media code is a set of C++ libraries for multimedia
+ streaming, using open standard protocols (RTP/RTCP, RTSP, SIP). These
+ libraries can be used to build applications to stream, receive and process
+ MPEG, H.263+ or JPEG video, several audio codecs, and can easily be extended
+ to support additional codecs. They can also be used to build basic RTSP (Real
+ Time Streaming Protocol) or SIP (Session Initiation Protocol) clients and
+ servers.
+ .
+ This package contains the UsageEnvironment library. The "UsageEnvironment" and
+ "TaskScheduler" classes are used for scheduling deferred events, for assigning
+ handlers for asynchronous read events, and for outputting error/warning
+ messages. Also, the "HashTable" class defines the interface to a generic hash
+ table, used by the rest of the code.
+ .
+ These are all abstract base classes; they must be subclassed for use in an
+ implementation. These subclasses can exploit the particular properties of the
+ environment in which the program will run - e.g., its GUI and/or scripting
+ environment.
+
+Package: libvlc-bin
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 219
+Depends: libc6 (>= 2.34), libvlc5 (>= 3.0.21)
+Filename: pool/v/vlc/libvlc-bin_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 92170
+MD5sum: e9ffab52fb93c4709965bcc22b154911
+SHA1: 371e97ed9ee7e9b11e3e58b0aa9ba052c71ab957
+SHA256: 0a3f5816f734fb2d6a5b99a53d41ce4fcefa5488eba91ea8c56734c50b3af844
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: tools for VLC's base library
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains the vlc-cache-gen binary.
+
+Package: libvlc-dev
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 396
+Depends: libvlc5 (= 2:3.0.21-0rpt1ubuntu1)
+Filename: pool/v/vlc/libvlc-dev_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 133042
+MD5sum: fc7aaf72ad38e0f7f3a54fb7234e10ac
+SHA1: 1aeaba6f7c0269efd5281eda9cce17e1cbda8006
+SHA256: bb748725d1094b5f8ca6066c66e59ced23383fd78e65b5c072660f5840f51534
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: development files for libvlc
+ This package contains headers and a static library required to build
+ standalone applications that use VLC features.
+ .
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+
+Package: libvlc5
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 354
+Depends: libc6 (>= 2.38), libvlccore9 (>= 3.0.21)
+Recommends: libvlc-bin (= 2:3.0.21-0rpt1ubuntu1)
+Filename: pool/v/vlc/libvlc5_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 149152
+MD5sum: 463b867862512d16349ad771ddf0749a
+SHA1: d37efcdea9e64244d31f275505dda49cbbb4ce6d
+SHA256: 85431bdbdefdcf011bbeb3b2cd560ce555276fd768eebda4d636f8ea28d178df
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer library
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains the shared library required by applications using VLC
+ features.
+
+Package: libvlccore-dev
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 962
+Depends: libvlccore9 (= 2:3.0.21-0rpt1ubuntu1)
+Filename: pool/v/vlc/libvlccore-dev_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 245198
+MD5sum: 46b3a1bf6d6b743186b6c79185acdd89
+SHA1: 83f5ccd31de947d8bf6841b69f1f091c43ae415d
+SHA256: 4e6b9f6b4ae7f3a404ef6bb7425020a119879c482d8cd5018a77b8e787ac4ec8
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: development files for libvlccore
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains headers and a static library required to build plugins
+ for VLC.
+
+Package: libvlccore9
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1197
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libidn12 (>= 1.13)
+Recommends: libproxy-tools
+Provides: vlc-plugin-abi-3-0-0f
+Filename: pool/v/vlc/libvlccore9_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 543360
+MD5sum: 7f03da3ca4e370c7757f53dc638d2752
+SHA1: 73b0b2ab917d416cdacc90a393ce91435578e4c6
+SHA256: 1cde228bb2d3d367329c03ae152b23ddb2f8818ccf653175b7ea1b215c4239c6
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: base library for VLC and its modules
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains the shared library required by VLC modules and libvlc.
+
+Package: livemedia-utils
+Source: liblivemedia
+Version: 1:2024.06.26-1ubuntu1
+Architecture: arm64
+Maintainer: Yufei Miao <m.yufei@wustl.edu>
+Installed-Size: 2530
+Depends: libbasicusageenvironment2 (>= 1:2024.06.26), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgroupsock30 (>= 1:2024.06.26), liblivemedia112 (>= 1:2024.06.26), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
+Filename: pool/libl/liblivemedia/livemedia-utils_2024.06.26-1ubuntu1_arm64.deb
+Size: 84144
+MD5sum: 427ec2cd003dafb77ef9921bc5a8a79e
+SHA1: 0b7e08672788b6cf2d593503aabd487db7617edd
+SHA256: 1fb1379ab6b3f22d9df54c4be7144150e11203569909f850de5e8877368db101
+Section: net
+Priority: optional
+Homepage: http://www.live555.com/liveMedia/
+Description: multimedia RTSP streaming tools
+ The live555.com streaming media code is a set of C++ libraries for multimedia
+ streaming, using open standard protocols (RTP/RTCP, RTSP, SIP). These
+ libraries can be used to build applications to stream, receive and process
+ MPEG, H.263+ or JPEG video, several audio codecs, and can easily be extended
+ to support additional codecs. They can also be used to build basic RTSP (Real
+ Time Streaming Protocol) or SIP (Session Initiation Protocol) clients and
+ servers.
+ .
+ This package contains the live555.com streaming servers (live555MediaServer
+ and live555ProxyServer), the example programs (openRTSP, playSIP, sapWatch,
+ vobStreamer) and a variety of test tools.
+
+Package: raspi-config
+Version: 20240625-0ubuntu1
+Architecture: all
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 148
+Depends: whiptail, parted, lua5.1, alsa-utils, psmisc, libraspberrypi-bin
+Recommends: triggerhappy, iw
+Filename: pool/r/raspi-config/raspi-config_20240625-0ubuntu1_all.deb
+Size: 32124
+MD5sum: 9ef0d7b9fcdefd9328c8438cc4c46497
+SHA1: f81a55e6330d89d2e984bef747885b5ea89338ec
+SHA256: 854eed46fe23f69b8593fed35f350ea7b48208f3fa0ade0c560e9d4c0d8419ca
+Section: utils
+Priority: optional
+Description: Raspberry Pi configuration tool
+ A simple configuration tool for common Raspberry Pi administrative tasks
+
+Package: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 196
+Depends: vlc-bin (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-base (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-qt (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-video-output (= 2:3.0.21-0rpt1ubuntu1)
+Recommends: vlc-l10n (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-access-extra (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-notify (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-samba (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-skins2 (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-video-splitter (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-visualization (= 2:3.0.21-0rpt1ubuntu1)
+Suggests: vlc-plugin-fluidsynth (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-jack (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-pipewire, vlc-plugin-svg (= 2:3.0.21-0rpt1ubuntu1)
+Provides: mp3-decoder
+Filename: pool/v/vlc/vlc_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 110918
+MD5sum: eae9e34d6f80808051f2be71efbda69f
+SHA1: a531d797e1800536e55af5062efcc82efed5e2dc
+SHA256: 35979997eb416c894e6de6509f0a26db042f897e4f24295d8ba6a1ab16b8fc60
+Section: video
+Priority: optional
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ VLC can also be used as a streaming server that duplicates the stream it
+ reads and multicasts them through the network to other clients, or serves
+ them through HTTP.
+ .
+ VLC has support for on-the-fly transcoding of audio and video formats, either
+ for broadcasting purposes or for movie format transformations. Support for
+ most output methods is provided by this package, but features can be added by
+ installing additional plugins:
+  * vlc-plugin-access-extra
+  * vlc-plugin-fluidsynth
+  * vlc-plugin-jack
+  * vlc-plugin-notify
+  * vlc-plugin-samba
+  * vlc-plugin-skins2
+  * vlc-plugin-svg
+  * vlc-plugin-video-splitter
+  * vlc-plugin-visualization
+
+Package: vlc-bin
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 467
+Depends: libvlc-bin (= 2:3.0.21-0rpt1ubuntu1), libc6 (>= 2.38), libvlc5 (>= 3.0.21)
+Filename: pool/v/vlc/vlc-bin_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 131048
+MD5sum: 2d30c4a007ae17098e9fc3b7d045e498
+SHA1: 40487d3f4299a1f06a66559dfb4dba22d75c253a
+SHA256: 50438ddc4e2cc02cd96ac91b0fa17c2f0c9433469db1c1de74aaf6e373df7269
+Section: video
+Priority: optional
+Homepage: https://www.videolan.org/vlc/
+Description: binaries from VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains the VLC's binaries.
+
+Package: vlc-data
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 959
+Filename: pool/v/vlc/vlc-data_3.0.21-0rpt1ubuntu1_all.deb
+Size: 427170
+MD5sum: d631b1ee24818abf841d7e31c0e433bf
+SHA1: 0f90bca646e8ed007beb7bf00a0804aaa6cc11f8
+SHA256: 82bb3435fda91a91376bbc46f1b5abd71ca4b4ead276dd9e444346762fec0a3d
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.videolan.org/vlc/
+Description: common data for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains HTTP interface files, and Lua scripts for VLC media
+ player.
+
+Package: vlc-l10n
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 41301
+Filename: pool/v/vlc/vlc-l10n_3.0.21-0rpt1ubuntu1_all.deb
+Size: 6589328
+MD5sum: 3dea9d049553a8a508e09bc24c290627
+SHA1: 02d5ec77ff37964491e0956378143aa7160dfa94
+SHA256: a016ba5c575dc522962ffef9cb2214be5c6a1600523070d9b463f3df518e7616
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.videolan.org/vlc/
+Description: translations for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains localisations for VLC media player.
+
+Package: vlc-plugin-access-extra
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 415
+Depends: libc6 (>= 2.38), libsrt1.5-gnutls (>= 1.5.3), libvlccore9 (>= 3.0.21), libvncclient1 (>= 0.9.10), libxcb-composite0, libxcb-shm0, libxcb1 (>= 1.6), vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-access-extra_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 110168
+MD5sum: 6fd9a51ec025cf81d8bf0e7e1c2b778d
+SHA1: 82da5af2b1d27135245010516cf3e6055b7b24b2
+SHA256: 24374d9ef7f5929404142c9dbbc399dfac29bf7009b6c7765a486fb89879bcb9
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer (extra access plugins)
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains additional access plugins.
+
+Package: vlc-plugin-base
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 26856
+Depends: vlc-data (= 2:3.0.21-0rpt1ubuntu1), liba52-0.7.4 (>= 0.7.4), libarchive13t64 (>= 3.1.2), libaribb24-0t64 (>= 1.0.3), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.13.6), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavc1394-0 (>= 0.5.3), libavcodec59 (>= 7:5.0), libavfilter8 (>= 7:5.0), libavformat59 (>= 7:5.0), libavutil57 (>= 7:5.0), libbasicusageenvironment2 (>= 1:2024.06.26), libbluray2 (>= 1:1.0.0), libc6 (>= 2.38), libcairo2 (>= 1.13.1), libcddb2 (>= 1.3.2), libchromaprint1 (>= 1.3.2), libdav1d7 (>= 1.1.0), libdbus-1-3 (>= 1.9.14), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libdrm2 (>= 2.3.1), libdvbpsi10 (>= 1.3.0), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libebml5 (>= 1.4.5), libfaad2 (>= 2.7), libflac12t64 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.3.1), libgcrypt20 (>= 1.10.0), libglib2.0-0t64 (>= 2.28.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libgpg-error0 (>= 1.14), libgroupsock30 (>= 1:2024.06.26), libharfbuzz0b (>= 0.9.4), libixml11t64 (>= 1:1.14.0), libjpeg8 (>= 8c), libkate1 (>= 0.3.0), liblirc-client0t64 (>= 0.10.2), liblivemedia112 (>= 1:2024.06.26), liblua5.2-0 (>= 5.2.4), libmad0 (>= 0.15.1b-3), libmatroska7 (>= 1.7.1), libmpcdec6 (>= 1:0.1~r435), libmpeg2-4 (>= 0.5.1), libmpg123-0t64 (>= 1.28.0), libmtp9t64 (>= 1.1.0), libncursesw6 (>= 6), libnfs14 (>= 1.9.7), libogg0 (>= 1.1.0), libopenmpt-modplug1 (>= 0.8.9), libopus0 (>= 1.3~beta+20180516), libpng16-16t64 (>= 1.6.2), libpostproc56 (>= 7:5.0), libprotobuf-lite32t64 (>= 3.21.12), libpulse0 (>= 1.0), libraw1394-11 (>= 2.1.2), libresid-builder0c2a, librsvg2-2 (>= 2.14.4), libsamplerate0 (>= 0.1.7), libsdl-image1.2 (>= 1.2.10), libsdl1.2debian (>= 1.2.15), libsecret-1-0 (>= 0.7), libshine3 (>= 3.1.0), libshout3 (>= 2.2.2), libsidplay2, libsoxr0 (>= 0.1.2), libspatialaudio0t64 (>= 0.3.0+git20180730+dfsg1), libspeex1 (>= 1.2~), libspeexdsp1 (>= 1.2.1), libssh2-1t64 (>= 1.2.3), libstdc++6 (>= 13.1), libswscale6 (>= 7:5.0), libsystemd0, libtag1v5 (>= 1.11), libtheora0 (>= 1.0), libtinfo6 (>= 6), libtwolame0 (>= 0.3.6), libudev1 (>= 183), libupnp17t64 (>= 1:1.14.0), libusageenvironment3 (>= 1:2024.06.26), libvlccore9 (>= 3.0.21), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.13), libxcb1, libxml2 (>= 2.7.4), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.1.4), vlc-plugin-abi-3-0-0f
+Recommends: xdg-utils
+Suggests: libdvdcss2
+Filename: pool/v/vlc/vlc-plugin-base_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 3400274
+MD5sum: 66214c93c86bf873bcaebfd72a1a91c6
+SHA1: 8ea67d7f4697dbf460c25c279daf95f4a5c1e3ac
+SHA256: 7af090d257b286d2902248b4b350e9c32fab628ca3b4a8adf93b647891d02cbf
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer (base plugins)
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains most plugins which are shipped in more specialied plugin
+ packages.
+
+Package: vlc-plugin-fluidsynth
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 213
+Depends: fluid-soundfont-gm | timgm6mb-soundfont, libc6 (>= 2.27), libfluidsynth3 (>= 2.0.5), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-fluidsynth_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 94388
+MD5sum: 348e746472b88cd871395727ece974ef
+SHA1: 231a5a7855bd21bb5cd57110039e5df9d2f905de
+SHA256: b3a2da49523ed28a3455b2321cbd181a9a073af4cec6b8566f0f2154cff99937
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: FluidSynth plugin for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This plugin adds support for playing MIDI file via the FluidSynth software
+ synthesizer to the VLC media player.
+
+Package: vlc-plugin-jack
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 280
+Depends: libc6 (>= 2.38), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-jack_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 100416
+MD5sum: 387d46b5feaa3bbd70d362a8879c135f
+SHA1: c8ad7c397c1f54828fbb45ac273ca4433dd2d1a3
+SHA256: 6cef66030674ed16466b89abb38faccf124ea3fd1851db4837ce29e857fd454f
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: JACK audio plugins for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ These plugins add support for JACK to the VLC media player. To
+ activate the audio output module, use the `--aout jack' flag or
+ select the `jack' audio output plugin from the preferences menu.
+ For the jack input, use `vlc jack://channels=...:ports=...'
+
+Package: vlc-plugin-notify
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 213
+Depends: libc6 (>= 2.17), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.0.0), libnotify4 (>= 0.7.0), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-notify_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 93566
+MD5sum: 651bb7089a8e5cb2fb46c9f5a550c9d2
+SHA1: 984170343a34e64379b9dbb1edcdeb7923b04c17
+SHA256: a82f18f6a57812eb830a7d7068a82a14cdcf4bb550f940010f100f03730c0687
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: LibNotify plugin for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This plugin adds support for libnotify track change notification to the
+ VLC media player.
+
+Package: vlc-plugin-qt
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 3422
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libvlccore9 (>= 3.0.21), libwayland-client0 (>= 1.0.2), libx11-6, vlc-plugin-abi-3-0-0f
+Recommends: vlc-bin
+Filename: pool/v/vlc/vlc-plugin-qt_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 1162314
+MD5sum: 90e215efd3b4602a0270cabd96e73d4b
+SHA1: 8c729eeeaef46d0ba7d294e78c1c0b0f3a6476e4
+SHA256: 38c0f79e820c4876105ce9a3d246d88c23773d9522052aa80588ba847fdf73b3
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer (Qt plugin)
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains VLC's Qt interface.
+
+Package: vlc-plugin-samba
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 213
+Depends: libc6 (>= 2.17), libsmbclient0 (>= 2:4.0.3+dfsg1), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-samba_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 94214
+MD5sum: cc1c6031e3c51fdfaa34ed90e21fc62f
+SHA1: b54928706153cab5f93ad37a06ba32f8ad2c67a9
+SHA256: be37e2117d2bade6503752b52948ad2b04702ce8cd0c8bc1499993546fb7b49a
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: Samba plugin for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This plugin adds support to access Samba shares from the VLC media player.
+
+Package: vlc-plugin-skins2
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1131
+Depends: fonts-freefont-ttf, vlc-plugin-qt (= 2:3.0.21-0rpt1ubuntu1), libc6 (>= 2.38), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libvlccore9 (>= 3.0.21), libx11-6, libxext6, libxinerama1 (>= 2:1.1.4), libxpm4, vlc-plugin-abi-3-0-0f
+Recommends: vlc-bin
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-skins2_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 551906
+MD5sum: e07bcb1a9ce863bcf068dcdc2f60dfad
+SHA1: c0ff7b260a933ff760add9df2da009ca98fbfc07
+SHA256: 11f96577150d144d6456c4d1a0e84bfb7be1c3c01fc364611221e4e4010d0f44
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer (Skins2 plugin)
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains VLC's Skins2 interface.
+
+Package: vlc-plugin-svg
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 213
+Depends: libc6 (>= 2.33), libcairo2 (>= 1.13.1), libglib2.0-0t64 (>= 2.12.0), librsvg2-2 (>= 2.14.4), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-svg_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 93970
+MD5sum: 3ac8415d60314a52a9d68139a9d6b0db
+SHA1: 7e4883b733282845fecce82517bfafb7c760c875
+SHA256: 62cd0bbb739dc60b1c3c51284b321d326301cca7d57e8b217658ee44b4fe7927
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: SVG plugin for VLC
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This plugin allows you to render SVG graphics on top of the video. It is a text
+ renderer, and must be activated through the '--text-renderer svg' option. When
+ sent non-SVG data, it will convert it to SVG using a template that can be
+ specified by the svg-template-file option.
+
+Package: vlc-plugin-video-output
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1211
+Depends: libaa1 (>= 1.4p5), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libegl1, libgl1, libgles2, libplacebo264 (>= 5.264.1), libvlccore9 (>= 3.0.21), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libx11-6, libxcb-keysyms1 (>= 0.4.0), libxcb-shm0, libxcb-xv0 (>= 1.2), libxcb1, vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-video-output_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 204910
+MD5sum: 7d4ba51cce20c78a9ead50204d255dce
+SHA1: bea141af02a08abfe67cebad909c9d1ed1accdfd
+SHA256: 32d6dd4e82f50ebea1b98d1b5aaeab676f47cde1ce9953a263d440cd605eec63
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer (video output plugins)
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains the video output plugins.
+
+Package: vlc-plugin-video-splitter
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 348
+Depends: libc6 (>= 2.38), libvlccore9 (>= 3.0.21), libxcb-randr0 (>= 1.1), libxcb1, vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-video-splitter_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 119674
+MD5sum: 0ffc13e77045c05d0a81ac968a6bd4d8
+SHA1: 17377043acf96e62e7f2ea61677b977baa9d11c4
+SHA256: 06749a0617e5797cfbb0a16cbe613eaaf9be95d477b097f0bfef5e8153d3b54b
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer (video splitter plugins)
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains the video splitter plugins.
+
+Package: vlc-plugin-visualization
+Source: vlc
+Version: 2:3.0.21-0rpt1ubuntu1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 280
+Depends: libc6 (>= 2.29), libgl1, libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
+Enhances: vlc
+Filename: pool/v/vlc/vlc-plugin-visualization_3.0.21-0rpt1ubuntu1_arm64.deb
+Size: 118082
+MD5sum: e7f0d2b8df4048c4c94ce4560c3baa43
+SHA1: efea88bc91ff7d89b3ed45e62c17aeecaa785956
+SHA256: 6207bbbdc68a97059edc977cb6ce25716e62f48724829d9e05a30c8894a3bd5e
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/vlc/
+Description: multimedia player and streamer (visualization plugins)
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ This package contains the visualization plugins.
+
