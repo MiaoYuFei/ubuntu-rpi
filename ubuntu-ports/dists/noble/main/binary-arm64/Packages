@@ -668,10 +668,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 477
 Depends: libplacebo264 (= 1:5.264.1-1ubuntu1), liblcms2-dev, libvulkan-dev
 Filename: pool/libp/libplacebo/libplacebo-dev_5.264.1-1ubuntu1_arm64.deb
-Size: 107208
-MD5sum: 5727eb2911863100cb1d5a3764866560
-SHA1: 0a66d4a01123a05adc6b0293bbb3be5fef9b5275
-SHA256: 413b0b71a4931a577dc41b585b35308bc4244dda397d077dfd7f8eea5f859851
+Size: 107116
+MD5sum: 5b48a417d9ef35d7ce3adf0905693443
+SHA1: c5b4fed8098d0d3e13229a4a091f7c138ece61e7
+SHA256: 3e4ca60f540abf9075005199afb25f83192d08cb9f6d86b7be72deb6f3794be0
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -689,13 +689,13 @@ Source: libplacebo
 Version: 1:5.264.1-1ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 7916
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), liblcms2-2 (>= 2.6), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
+Installed-Size: 806
+Depends: libc6 (>= 2.38), liblcms2-2 (>= 2.6), libshaderc1 (>= 2022.2-1), libvulkan1 (>= 1.2.131.2)
 Filename: pool/libp/libplacebo/libplacebo264_5.264.1-1ubuntu1_arm64.deb
-Size: 2487634
-MD5sum: e1a70f26469fa624f37554ff30829187
-SHA1: 052e2f6d36063b1373460d56f131dc8988fe8ae0
-SHA256: e0a439288e15c5dc814886d389594190019f6f2032ed5a0356ab835b18481dc0
+Size: 313522
+MD5sum: 342980e377f0c2a98b2046f5045bc48e
+SHA1: ce1f83b5dbb6a6fcd7cdd5ed1c186f46bb417576
+SHA256: 956eaa2fc22992e82977f3b24ee4eadd9b54560421a93322c05af735dc447eab
 Section: libs
 Priority: optional
 Multi-Arch: same
