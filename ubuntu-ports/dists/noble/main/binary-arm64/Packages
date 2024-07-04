@@ -5,7 +5,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2483
 Depends: libavcodec59 (>= 7:5.0), libavdevice59 (>= 7:5.0), libavfilter8 (>= 7:5.1), libavformat59 (>= 7:5.1), libavutil57 (>= 7:5.1), libc6 (>= 2.35), libpostproc56 (>= 7:5.0), libsdl2-2.0-0 (>= 2.0.12), libswresample4 (>= 7:5.1), libswscale6 (>= 7:5.0)
 Suggests: ffmpeg-doc
-Filename: pool/f/ffmpeg/ffmpeg_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/ffmpeg_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 1774828
 MD5sum: f23618c63f6249d2440c226f256bd378
 SHA1: 12c95bdf600e0320ad0562434d9b21e3999e9ce2
@@ -33,7 +33,7 @@ Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 34974
 Depends: libjs-jquery, libjs-bootstrap
-Filename: pool/f/ffmpeg/ffmpeg-doc_5.1.5-0rpt1ubuntu1_all.deb
+Filename: pool/main/f/ffmpeg/ffmpeg-doc_5.1.5-0rpt1ubuntu1_all.deb
 Size: 2010214
 MD5sum: aafe75713a174fca56d1c387bd536a87
 SHA1: c76163dd6deb1fd76f67298af63d669b5e4007c8
@@ -59,7 +59,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 18919
 Depends: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavcodec-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavcodec-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 6279338
 MD5sum: 5a8f88c3f54ba80672ba4a34b62ddcfe
 SHA1: a0d40dc09dc4458071e2aa760207cc3c7d8164ad
@@ -91,7 +91,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 56
 Depends: libavcodec-extra59 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavcodec-extra_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavcodec-extra_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 21540
 MD5sum: b7a5912c91a087825d160a720726fcd5
 SHA1: 7bb2fffe63729b13efa318039c703c83d594a6f1
@@ -120,7 +120,7 @@ Depends: libaom3 (>= 3.2.0), libaribb24-0t64 (>= 1.0.3), libavutil57 (= 9:5.1.5-
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
 Conflicts: libavcodec59
 Provides: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavcodec-extra59_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavcodec-extra59_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 5614352
 MD5sum: ec34c9b805349fffa1fa35008208b401
 SHA1: fc48ae3ff9614d8b738eecd85fb516d1880e0312
@@ -163,7 +163,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 12689
 Depends: libaom3 (>= 3.2.0), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 0.9.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1d1 (>= 1.7.0+dfsg), libswresample4 (>= 7:5.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libudev1 (>= 183), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
-Filename: pool/f/ffmpeg/libavcodec59_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavcodec59_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 5609744
 MD5sum: ddac9a2b9508995232a9448cc8c70f46
 SHA1: 311f5c6366539ab599457632f5ba48a96448f072
@@ -195,7 +195,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 472
 Depends: libavcodec-dev (= 9:5.1.5-0rpt1ubuntu1), libavdevice59 (= 9:5.1.5-0rpt1ubuntu1), libavfilter-dev (= 9:5.1.5-0rpt1ubuntu1), libavformat-dev (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libpostproc-dev (= 9:5.1.5-0rpt1ubuntu1), libswscale-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavdevice-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavdevice-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 114068
 MD5sum: 8a9dcbb31d1f7b32b391fef73b6b367e
 SHA1: dfedf9cfe8a47471fdceb2067a57359642677673
@@ -223,7 +223,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 321
 Depends: libasound2t64 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec59 (>= 7:5.0), libavfilter8 (>= 7:5.1), libavformat59 (= 9:5.1.5-0rpt1ubuntu1), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libdc1394-25 (>= 2.2.6), libdrm2 (>= 2.4.101), libepoxy0 (>= 1.0), libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libsdl2-2.0-0 (>= 2.0.12), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
-Filename: pool/f/ffmpeg/libavdevice59_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavdevice59_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 94888
 MD5sum: 838b2d8d34bb37bf3cb919504a1a2132
 SHA1: 476d2e86a7003abf8176a336a573bd48d5bd947f
@@ -251,7 +251,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 8160
 Depends: libavcodec-dev (= 9:5.1.5-0rpt1ubuntu1), libavfilter8 (= 9:5.1.5-0rpt1ubuntu1), libavformat-dev (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libpostproc-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1), libswscale-dev (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavfilter-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavfilter-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 2091116
 MD5sum: 87d99bb34b1a6822fec6ad28b16e8e96
 SHA1: c57c89091634d8b2c72a7ae5cf2d066de514579a
@@ -278,7 +278,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 56
 Depends: libavfilter-extra8 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavfilter-extra_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavfilter-extra_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 21538
 MD5sum: db7ad3073ea84e5a96667bd5e0e99bb7
 SHA1: cbb01f391e37db6d114f4881e53fe4655ae00bfb
@@ -306,7 +306,7 @@ Installed-Size: 12172
 Depends: libass9 (>= 1:0.13.6), libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavformat59 (>= 7:5.0), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo264 (>= 5.264.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc56 (>= 7:5.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:5.1), libswscale6 (>= 7:5.0), libtesseract5 (>= 5.3.4), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Conflicts: libavfilter8
 Provides: libavfilter8 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavfilter-extra8_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavfilter-extra8_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 4022670
 MD5sum: 086757e20766d854b74ae455ec8b2173
 SHA1: b2b8c6231b5856ffc6ea346ad5710a407e2576e0
@@ -340,7 +340,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 12108
 Depends: libass9 (>= 1:0.13.6), libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavformat59 (>= 7:5.0), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo264 (>= 5.264.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc56 (>= 7:5.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:5.1), libswscale6 (>= 7:5.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
-Filename: pool/f/ffmpeg/libavfilter8_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavfilter8_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 4022594
 MD5sum: eabf482092edd5f5924229cd83f78660
 SHA1: 3e16a7d1f464953bb8e58953eba9fc9a09a0a2fc
@@ -367,7 +367,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 5888
 Depends: libavcodec-dev (= 9:5.1.5-0rpt1ubuntu1), libavformat59 (= 9:5.1.5-0rpt1ubuntu1), libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample-dev (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavformat-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavformat-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 1461564
 MD5sum: 6bf87cacadf2079cb847c6313b7f3951
 SHA1: 2162c41b13aed5c81430f4f361b13da687cf322e
@@ -396,7 +396,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 56
 Depends: libavformat-extra59 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavformat-extra_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavformat-extra_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 21546
 MD5sum: d3b7adcde4188f137930fbc849328270
 SHA1: df786e5e6df4ed06ae2515c71b4f471f8e48187f
@@ -424,7 +424,7 @@ Installed-Size: 2890
 Depends: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsmbclient0 (>= 2:4.0.3+dfsg1), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
 Conflicts: libavformat59
 Provides: libavformat59 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavformat-extra59_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavformat-extra59_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 1173440
 MD5sum: 7c35ab798306484e8463b9938814862c
 SHA1: 3bf01fddcc28ad0065842ab46a8843c8eb6464e4
@@ -460,7 +460,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2887
 Depends: libavcodec59 (= 9:5.1.5-0rpt1ubuntu1), libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Filename: pool/f/ffmpeg/libavformat59_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavformat59_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 1171770
 MD5sum: 933b64e6467e0a5fd9f8ef2aa1f09b1c
 SHA1: 1e2a37043e25aa2a42152d80ba988841cffb8767
@@ -489,7 +489,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2076
 Depends: libavutil57 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libavutil-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavutil-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 517136
 MD5sum: 9f2c76185308d3ee3d3b508192562ca8
 SHA1: 8e7ae74c2a704c111f400e822716d6a96c8b8697
@@ -520,7 +520,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 924
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.1.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
-Filename: pool/f/ffmpeg/libavutil57_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libavutil57_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 355036
 MD5sum: c5aee625a459807dc3ffc8158bff9369
 SHA1: 0101a79b979a4b67fca6c98ea610163e158caa00
@@ -551,7 +551,7 @@ Architecture: arm64
 Maintainer: Yufei Miao <m.yufei@wustl.edu>
 Installed-Size: 82
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
-Filename: pool/libl/liblivemedia/libbasicusageenvironment2_2024.06.26-1ubuntu1_arm64.deb
+Filename: pool/main/libl/liblivemedia/libbasicusageenvironment2_2024.06.26-1ubuntu1_arm64.deb
 Size: 17238
 MD5sum: 967644661c0c4098381ebcf4941a56be
 SHA1: 361972f2135f597fea7640de43534366ccb27e4b
@@ -581,7 +581,7 @@ Architecture: arm64
 Maintainer: Yufei Miao <m.yufei@wustl.edu>
 Installed-Size: 82
 Depends: libbasicusageenvironment2 (>= 1:2024.06.26), libc6 (>= 2.28), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
-Filename: pool/libl/liblivemedia/libgroupsock30_2024.06.26-1ubuntu1_arm64.deb
+Filename: pool/main/libl/liblivemedia/libgroupsock30_2024.06.26-1ubuntu1_arm64.deb
 Size: 24518
 MD5sum: 67d2ac4b8991c36cc72ec1533e8f9196
 SHA1: 5af894cd7f9ea89002b0aec570209e8301edacd1
@@ -610,7 +610,7 @@ Architecture: arm64
 Maintainer: Yufei Miao <m.yufei@wustl.edu>
 Installed-Size: 988
 Depends: libbasicusageenvironment2 (= 1:2024.06.26-1ubuntu1), libgroupsock30 (= 1:2024.06.26-1ubuntu1), liblivemedia112 (= 1:2024.06.26-1ubuntu1), libusageenvironment3 (= 1:2024.06.26-1ubuntu1)
-Filename: pool/libl/liblivemedia/liblivemedia-dev_2024.06.26-1ubuntu1_arm64.deb
+Filename: pool/main/libl/liblivemedia/liblivemedia-dev_2024.06.26-1ubuntu1_arm64.deb
 Size: 122522
 MD5sum: 342148496adbdad4f4dc509a93502966
 SHA1: bde1c26288711754ec29ae099c24dedc7ad1f421
@@ -638,7 +638,7 @@ Architecture: arm64
 Maintainer: Yufei Miao <m.yufei@wustl.edu>
 Installed-Size: 1252
 Depends: libbasicusageenvironment2 (>= 1:2024.06.26), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgroupsock30 (>= 1:2024.06.26), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
-Filename: pool/libl/liblivemedia/liblivemedia112_2024.06.26-1ubuntu1_arm64.deb
+Filename: pool/main/libl/liblivemedia/liblivemedia112_2024.06.26-1ubuntu1_arm64.deb
 Size: 355218
 MD5sum: 14d3d788438e2d8ef38a587f329e99a4
 SHA1: e8288308e69172a5d70080c2c0031a5197d8adef
@@ -667,11 +667,11 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 477
 Depends: libplacebo264 (= 1:5.264.1-1ubuntu1), liblcms2-dev, libvulkan-dev
-Filename: pool/libp/libplacebo/libplacebo-dev_5.264.1-1ubuntu1_arm64.deb
-Size: 107116
-MD5sum: 5b48a417d9ef35d7ce3adf0905693443
-SHA1: c5b4fed8098d0d3e13229a4a091f7c138ece61e7
-SHA256: 3e4ca60f540abf9075005199afb25f83192d08cb9f6d86b7be72deb6f3794be0
+Filename: pool/main/libp/libplacebo/libplacebo-dev_5.264.1-1ubuntu1_arm64.deb
+Size: 107196
+MD5sum: b1633cc60e0d4c752f50a6c55b168286
+SHA1: 19a56a5ca8427bf6ae1fe5bda32f7edf4d890a47
+SHA256: f3b1283a2c74e173b98d52b88894e42dff339cce860c7d3745865471cbc1e154
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -689,13 +689,13 @@ Source: libplacebo
 Version: 1:5.264.1-1ubuntu1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 806
-Depends: libc6 (>= 2.38), liblcms2-2 (>= 2.6), libshaderc1 (>= 2022.2-1), libvulkan1 (>= 1.2.131.2)
-Filename: pool/libp/libplacebo/libplacebo264_5.264.1-1ubuntu1_arm64.deb
-Size: 313522
-MD5sum: 342980e377f0c2a98b2046f5045bc48e
-SHA1: ce1f83b5dbb6a6fcd7cdd5ed1c186f46bb417576
-SHA256: 956eaa2fc22992e82977f3b24ee4eadd9b54560421a93322c05af735dc447eab
+Installed-Size: 7916
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), liblcms2-2 (>= 2.6), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
+Filename: pool/main/libp/libplacebo/libplacebo264_5.264.1-1ubuntu1_arm64.deb
+Size: 2487624
+MD5sum: 06af444233b7cd3a9b7f04cbc9bf4af5
+SHA1: 9a39fbc07f4290377234087df0f53e300aa2932f
+SHA256: 692de9c53d04cec3e81d3970690794219d35614129f28668ad825e486894f431
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -715,7 +715,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 124
 Depends: libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libpostproc56 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libpostproc-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libpostproc-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 47444
 MD5sum: 998f6f8e7e055fcc06eccab6bc9c1b3e
 SHA1: eb64653b245a5ddc6dbf8dd9f4f0f0399f1e7999
@@ -741,7 +741,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 131
 Depends: libavutil57 (>= 7:5.0), libc6 (>= 2.17)
-Filename: pool/f/ffmpeg/libpostproc56_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libpostproc56_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 46702
 MD5sum: 62857c911ca2fe0fa7fb3791acceb056
 SHA1: 29f0add0e396c8b082c0e3793a9a1592dcb1e327
@@ -767,7 +767,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 265
 Depends: libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswresample4 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libswresample-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libswresample-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 76634
 MD5sum: 6005021900b1b032502e27bc5f159675
 SHA1: 866d9e8791bb39de54a1da821b0796b86a7d2a1e
@@ -810,7 +810,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 196
 Depends: libavutil57 (>= 7:5.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
-Filename: pool/f/ffmpeg/libswresample4_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libswresample4_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 64030
 MD5sum: adc07032cb398afa7719130619004f7b
 SHA1: 14dc46e5146bde6354a1397b6fd50f869a5ff09e
@@ -853,7 +853,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 838
 Depends: libavutil-dev (= 9:5.1.5-0rpt1ubuntu1), libswscale6 (= 9:5.1.5-0rpt1ubuntu1)
-Filename: pool/f/ffmpeg/libswscale-dev_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libswscale-dev_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 195732
 MD5sum: 02f44bbe97f8f81738846642b586e363
 SHA1: 898b7f49c9a537cface930eec13f520f258b62b7
@@ -890,7 +890,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 580
 Depends: libavutil57 (= 9:5.1.5-0rpt1ubuntu1), libc6 (>= 2.34)
-Filename: pool/f/ffmpeg/libswscale6_5.1.5-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/f/ffmpeg/libswscale6_5.1.5-0rpt1ubuntu1_arm64.deb
 Size: 173028
 MD5sum: bf521c787f059f5e43ebbc4e0f379865
 SHA1: 6791d5957ca1aabe3c17b9da4b25716bf986a238
@@ -927,7 +927,7 @@ Architecture: arm64
 Maintainer: Yufei Miao <m.yufei@wustl.edu>
 Installed-Size: 81
 Depends: libc6 (>= 2.17), libstdc++6 (>= 5)
-Filename: pool/libl/liblivemedia/libusageenvironment3_2024.06.26-1ubuntu1_arm64.deb
+Filename: pool/main/libl/liblivemedia/libusageenvironment3_2024.06.26-1ubuntu1_arm64.deb
 Size: 6866
 MD5sum: 4cdc857ac5449600cbe53e169cf2c23d
 SHA1: e7a6a50e7ae68dca751c041f38b87ae5d63a2e69
@@ -963,7 +963,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 219
 Depends: libc6 (>= 2.34), libvlc5 (>= 3.0.21)
-Filename: pool/v/vlc/libvlc-bin_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/libvlc-bin_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 92170
 MD5sum: e9ffab52fb93c4709965bcc22b154911
 SHA1: 371e97ed9ee7e9b11e3e58b0aa9ba052c71ab957
@@ -986,7 +986,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 396
 Depends: libvlc5 (= 2:3.0.21-0rpt1ubuntu1)
-Filename: pool/v/vlc/libvlc-dev_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/libvlc-dev_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 133042
 MD5sum: fc7aaf72ad38e0f7f3a54fb7234e10ac
 SHA1: 1aeaba6f7c0269efd5281eda9cce17e1cbda8006
@@ -1011,7 +1011,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 354
 Depends: libc6 (>= 2.38), libvlccore9 (>= 3.0.21)
 Recommends: libvlc-bin (= 2:3.0.21-0rpt1ubuntu1)
-Filename: pool/v/vlc/libvlc5_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/libvlc5_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 149152
 MD5sum: 463b867862512d16349ad771ddf0749a
 SHA1: d37efcdea9e64244d31f275505dda49cbbb4ce6d
@@ -1035,7 +1035,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 962
 Depends: libvlccore9 (= 2:3.0.21-0rpt1ubuntu1)
-Filename: pool/v/vlc/libvlccore-dev_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/libvlccore-dev_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 245198
 MD5sum: 46b3a1bf6d6b743186b6c79185acdd89
 SHA1: 83f5ccd31de947d8bf6841b69f1f091c43ae415d
@@ -1061,7 +1061,7 @@ Installed-Size: 1197
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libidn12 (>= 1.13)
 Recommends: libproxy-tools
 Provides: vlc-plugin-abi-3-0-0f
-Filename: pool/v/vlc/libvlccore9_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/libvlccore9_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 543360
 MD5sum: 7f03da3ca4e370c7757f53dc638d2752
 SHA1: 73b0b2ab917d416cdacc90a393ce91435578e4c6
@@ -1084,7 +1084,7 @@ Architecture: arm64
 Maintainer: Yufei Miao <m.yufei@wustl.edu>
 Installed-Size: 2530
 Depends: libbasicusageenvironment2 (>= 1:2024.06.26), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgroupsock30 (>= 1:2024.06.26), liblivemedia112 (>= 1:2024.06.26), libstdc++6 (>= 5), libusageenvironment3 (>= 1:2024.06.26)
-Filename: pool/libl/liblivemedia/livemedia-utils_2024.06.26-1ubuntu1_arm64.deb
+Filename: pool/main/libl/liblivemedia/livemedia-utils_2024.06.26-1ubuntu1_arm64.deb
 Size: 84144
 MD5sum: 427ec2cd003dafb77ef9921bc5a8a79e
 SHA1: 0b7e08672788b6cf2d593503aabd487db7617edd
@@ -1112,7 +1112,7 @@ Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 148
 Depends: whiptail, parted, lua5.1, alsa-utils, psmisc, libraspberrypi-bin
 Recommends: triggerhappy, iw
-Filename: pool/r/raspi-config/raspi-config_20240625-0ubuntu1_all.deb
+Filename: pool/main/r/raspi-config/raspi-config_20240625-0ubuntu1_all.deb
 Size: 32124
 MD5sum: 9ef0d7b9fcdefd9328c8438cc4c46497
 SHA1: f81a55e6330d89d2e984bef747885b5ea89338ec
@@ -1131,7 +1131,7 @@ Depends: vlc-bin (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-base (= 2:3.0.21-0rpt1ubu
 Recommends: vlc-l10n (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-access-extra (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-notify (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-samba (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-skins2 (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-video-splitter (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-visualization (= 2:3.0.21-0rpt1ubuntu1)
 Suggests: vlc-plugin-fluidsynth (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-jack (= 2:3.0.21-0rpt1ubuntu1), vlc-plugin-pipewire, vlc-plugin-svg (= 2:3.0.21-0rpt1ubuntu1)
 Provides: mp3-decoder
-Filename: pool/v/vlc/vlc_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 110918
 MD5sum: eae9e34d6f80808051f2be71efbda69f
 SHA1: a531d797e1800536e55af5062efcc82efed5e2dc
@@ -1169,7 +1169,7 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 467
 Depends: libvlc-bin (= 2:3.0.21-0rpt1ubuntu1), libc6 (>= 2.38), libvlc5 (>= 3.0.21)
-Filename: pool/v/vlc/vlc-bin_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-bin_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 131048
 MD5sum: 2d30c4a007ae17098e9fc3b7d045e498
 SHA1: 40487d3f4299a1f06a66559dfb4dba22d75c253a
@@ -1190,7 +1190,7 @@ Version: 2:3.0.21-0rpt1ubuntu1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 959
-Filename: pool/v/vlc/vlc-data_3.0.21-0rpt1ubuntu1_all.deb
+Filename: pool/main/vlc/vlc-data_3.0.21-0rpt1ubuntu1_all.deb
 Size: 427170
 MD5sum: d631b1ee24818abf841d7e31c0e433bf
 SHA1: 0f90bca646e8ed007beb7bf00a0804aaa6cc11f8
@@ -1213,7 +1213,7 @@ Version: 2:3.0.21-0rpt1ubuntu1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 41301
-Filename: pool/v/vlc/vlc-l10n_3.0.21-0rpt1ubuntu1_all.deb
+Filename: pool/main/vlc/vlc-l10n_3.0.21-0rpt1ubuntu1_all.deb
 Size: 6589328
 MD5sum: 3dea9d049553a8a508e09bc24c290627
 SHA1: 02d5ec77ff37964491e0956378143aa7160dfa94
@@ -1237,7 +1237,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 415
 Depends: libc6 (>= 2.38), libsrt1.5-gnutls (>= 1.5.3), libvlccore9 (>= 3.0.21), libvncclient1 (>= 0.9.10), libxcb-composite0, libxcb-shm0, libxcb1 (>= 1.6), vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-access-extra_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-access-extra_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 110168
 MD5sum: 6fd9a51ec025cf81d8bf0e7e1c2b778d
 SHA1: 82da5af2b1d27135245010516cf3e6055b7b24b2
@@ -1262,7 +1262,7 @@ Installed-Size: 26856
 Depends: vlc-data (= 2:3.0.21-0rpt1ubuntu1), liba52-0.7.4 (>= 0.7.4), libarchive13t64 (>= 3.1.2), libaribb24-0t64 (>= 1.0.3), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.13.6), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavc1394-0 (>= 0.5.3), libavcodec59 (>= 7:5.0), libavfilter8 (>= 7:5.0), libavformat59 (>= 7:5.0), libavutil57 (>= 7:5.0), libbasicusageenvironment2 (>= 1:2024.06.26), libbluray2 (>= 1:1.0.0), libc6 (>= 2.38), libcairo2 (>= 1.13.1), libcddb2 (>= 1.3.2), libchromaprint1 (>= 1.3.2), libdav1d7 (>= 1.1.0), libdbus-1-3 (>= 1.9.14), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libdrm2 (>= 2.3.1), libdvbpsi10 (>= 1.3.0), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libebml5 (>= 1.4.5), libfaad2 (>= 2.7), libflac12t64 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.3.1), libgcrypt20 (>= 1.10.0), libglib2.0-0t64 (>= 2.28.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libgpg-error0 (>= 1.14), libgroupsock30 (>= 1:2024.06.26), libharfbuzz0b (>= 0.9.4), libixml11t64 (>= 1:1.14.0), libjpeg8 (>= 8c), libkate1 (>= 0.3.0), liblirc-client0t64 (>= 0.10.2), liblivemedia112 (>= 1:2024.06.26), liblua5.2-0 (>= 5.2.4), libmad0 (>= 0.15.1b-3), libmatroska7 (>= 1.7.1), libmpcdec6 (>= 1:0.1~r435), libmpeg2-4 (>= 0.5.1), libmpg123-0t64 (>= 1.28.0), libmtp9t64 (>= 1.1.0), libncursesw6 (>= 6), libnfs14 (>= 1.9.7), libogg0 (>= 1.1.0), libopenmpt-modplug1 (>= 0.8.9), libopus0 (>= 1.3~beta+20180516), libpng16-16t64 (>= 1.6.2), libpostproc56 (>= 7:5.0), libprotobuf-lite32t64 (>= 3.21.12), libpulse0 (>= 1.0), libraw1394-11 (>= 2.1.2), libresid-builder0c2a, librsvg2-2 (>= 2.14.4), libsamplerate0 (>= 0.1.7), libsdl-image1.2 (>= 1.2.10), libsdl1.2debian (>= 1.2.15), libsecret-1-0 (>= 0.7), libshine3 (>= 3.1.0), libshout3 (>= 2.2.2), libsidplay2, libsoxr0 (>= 0.1.2), libspatialaudio0t64 (>= 0.3.0+git20180730+dfsg1), libspeex1 (>= 1.2~), libspeexdsp1 (>= 1.2.1), libssh2-1t64 (>= 1.2.3), libstdc++6 (>= 13.1), libswscale6 (>= 7:5.0), libsystemd0, libtag1v5 (>= 1.11), libtheora0 (>= 1.0), libtinfo6 (>= 6), libtwolame0 (>= 0.3.6), libudev1 (>= 183), libupnp17t64 (>= 1:1.14.0), libusageenvironment3 (>= 1:2024.06.26), libvlccore9 (>= 3.0.21), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.13), libxcb1, libxml2 (>= 2.7.4), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.1.4), vlc-plugin-abi-3-0-0f
 Recommends: xdg-utils
 Suggests: libdvdcss2
-Filename: pool/v/vlc/vlc-plugin-base_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-base_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 3400274
 MD5sum: 66214c93c86bf873bcaebfd72a1a91c6
 SHA1: 8ea67d7f4697dbf460c25c279daf95f4a5c1e3ac
@@ -1287,7 +1287,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 213
 Depends: fluid-soundfont-gm | timgm6mb-soundfont, libc6 (>= 2.27), libfluidsynth3 (>= 2.0.5), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-fluidsynth_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-fluidsynth_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 94388
 MD5sum: 348e746472b88cd871395727ece974ef
 SHA1: 231a5a7855bd21bb5cd57110039e5df9d2f905de
@@ -1312,7 +1312,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 280
 Depends: libc6 (>= 2.38), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-jack_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-jack_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 100416
 MD5sum: 387d46b5feaa3bbd70d362a8879c135f
 SHA1: c8ad7c397c1f54828fbb45ac273ca4433dd2d1a3
@@ -1339,7 +1339,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 213
 Depends: libc6 (>= 2.17), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.0.0), libnotify4 (>= 0.7.0), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-notify_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-notify_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 93566
 MD5sum: 651bb7089a8e5cb2fb46c9f5a550c9d2
 SHA1: 984170343a34e64379b9dbb1edcdeb7923b04c17
@@ -1364,7 +1364,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3422
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libvlccore9 (>= 3.0.21), libwayland-client0 (>= 1.0.2), libx11-6, vlc-plugin-abi-3-0-0f
 Recommends: vlc-bin
-Filename: pool/v/vlc/vlc-plugin-qt_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-qt_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 1162314
 MD5sum: 90e215efd3b4602a0270cabd96e73d4b
 SHA1: 8c729eeeaef46d0ba7d294e78c1c0b0f3a6476e4
@@ -1388,7 +1388,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 213
 Depends: libc6 (>= 2.17), libsmbclient0 (>= 2:4.0.3+dfsg1), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-samba_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-samba_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 94214
 MD5sum: cc1c6031e3c51fdfaa34ed90e21fc62f
 SHA1: b54928706153cab5f93ad37a06ba32f8ad2c67a9
@@ -1413,7 +1413,7 @@ Installed-Size: 1131
 Depends: fonts-freefont-ttf, vlc-plugin-qt (= 2:3.0.21-0rpt1ubuntu1), libc6 (>= 2.38), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libvlccore9 (>= 3.0.21), libx11-6, libxext6, libxinerama1 (>= 2:1.1.4), libxpm4, vlc-plugin-abi-3-0-0f
 Recommends: vlc-bin
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-skins2_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-skins2_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 551906
 MD5sum: e07bcb1a9ce863bcf068dcdc2f60dfad
 SHA1: c0ff7b260a933ff760add9df2da009ca98fbfc07
@@ -1437,7 +1437,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 213
 Depends: libc6 (>= 2.33), libcairo2 (>= 1.13.1), libglib2.0-0t64 (>= 2.12.0), librsvg2-2 (>= 2.14.4), libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-svg_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-svg_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 93970
 MD5sum: 3ac8415d60314a52a9d68139a9d6b0db
 SHA1: 7e4883b733282845fecce82517bfafb7c760c875
@@ -1464,7 +1464,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1211
 Depends: libaa1 (>= 1.4p5), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libegl1, libgl1, libgles2, libplacebo264 (>= 5.264.1), libvlccore9 (>= 3.0.21), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libx11-6, libxcb-keysyms1 (>= 0.4.0), libxcb-shm0, libxcb-xv0 (>= 1.2), libxcb1, vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-video-output_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-video-output_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 204910
 MD5sum: 7d4ba51cce20c78a9ead50204d255dce
 SHA1: bea141af02a08abfe67cebad909c9d1ed1accdfd
@@ -1488,7 +1488,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 348
 Depends: libc6 (>= 2.38), libvlccore9 (>= 3.0.21), libxcb-randr0 (>= 1.1), libxcb1, vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-video-splitter_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-video-splitter_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 119674
 MD5sum: 0ffc13e77045c05d0a81ac968a6bd4d8
 SHA1: 17377043acf96e62e7f2ea61677b977baa9d11c4
@@ -1512,7 +1512,7 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 280
 Depends: libc6 (>= 2.29), libgl1, libvlccore9 (>= 3.0.21), vlc-plugin-abi-3-0-0f
 Enhances: vlc
-Filename: pool/v/vlc/vlc-plugin-visualization_3.0.21-0rpt1ubuntu1_arm64.deb
+Filename: pool/main/vlc/vlc-plugin-visualization_3.0.21-0rpt1ubuntu1_arm64.deb
 Size: 118082
 MD5sum: e7f0d2b8df4048c4c94ce4560c3baa43
 SHA1: efea88bc91ff7d89b3ed45e62c17aeecaa785956
