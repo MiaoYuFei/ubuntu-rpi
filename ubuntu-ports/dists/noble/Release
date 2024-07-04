@@ -6,10 +6,10 @@ Codename: noble
 Architectures: arm64
 Components: main
 Description: Ubuntu Noble 24.04
-Date: Thu, 04 Jul 2024 23:44:15 UTC
+Date: Thu, 04 Jul 2024 23:52:57 UTC
 MD5Sum:
- dd5fb2fff4545a68aaabe89b71b2991d            14808 main/binary-arm64/Packages.gz
+ 8948bb82916640cb975ceba995a72ca0            14808 main/binary-arm64/Packages.gz
  bfc510ab4bb42b2529d8b340915df9d6            74806 main/binary-arm64/Packages
 SHA256:
- 283409415f593d756455ad6cd2a6a262ffe919bac54db4a69be769492e4f5e55            14808 main/binary-arm64/Packages.gz
+ daa0baca6a1c1ca233a844faa5f8c8b945cef21e865ee866cf84bb957cf818ab            14808 main/binary-arm64/Packages.gz
  0534b18170f257a2824f7aef65a4d590a08ce2a40bbe5f7701ad7e9560d05c10            74806 main/binary-arm64/Packages
