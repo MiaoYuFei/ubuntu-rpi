@@ -9,17 +9,17 @@ Codename: noble
 Architectures: arm64
 Components: main
 Description: Ubuntu Noble 24.04
-Date: Tue, 02 Jul 2024 22:20:44 UTC
+Date: Fri, 05 Jul 2024 00:04:07 UTC
 MD5Sum:
- 5935d38a268923476b6144632f22c8fa            14810 main/binary-arm64/Packages.gz
- c25f3b32d26effdfb3fd1e70b902a3e8            74559 main/binary-arm64/Packages
+ f537a6855ebe71b4a2da12fb2a3bffdd            14808 main/binary-arm64/Packages.gz
+ bfc510ab4bb42b2529d8b340915df9d6            74806 main/binary-arm64/Packages
 SHA256:
- 9507a989e76f10bb178ef19614026cb35c07b0f5066875b887d95b232d5cf501            14810 main/binary-arm64/Packages.gz
- f91e16c85f3056a1eab3a40b154eaddf319e4c4eb357b56b4988824db5e2802a            74559 main/binary-arm64/Packages
+ 0754993a0bbb2c862190697bb63c4122fb2ad410841c9dbf37929655086c043f            14808 main/binary-arm64/Packages.gz
+ 0534b18170f257a2824f7aef65a4d590a08ce2a40bbe5f7701ad7e9560d05c10            74806 main/binary-arm64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSMq0NnXQI88fO4sOLPh8gh7hZ/rAUCZoR9PAAKCRDPh8gh7hZ/
-rPEvAQD4lbCW5MHgBNEQtAlHDZpiuADTyOKSBSRO+Y1NqBvv3wEA9Mz4zvZ4DVp3
-HlxHVXcus8Honsx4TS5IAYTWxIaz8AY=
-=FcMO
+iHUEARYKAB0WIQSMq0NnXQI88fO4sOLPh8gh7hZ/rAUCZoc4dwAKCRDPh8gh7hZ/
+rEFTAP9gMaDIknCoz7Yp2QBCgh32rThzXkxHQNcAT+GihVby7AD+KOhRhKTBW4hw
++SFJbfG7FK/0EyoHUSJo60uKOaX6uAg=
+=kh72
 -----END PGP SIGNATURE-----
